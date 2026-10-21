@@ -1,0 +1,5 @@
+/* A single return link; the existing case-study styles stay unchanged. */
+.case-brand-group { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-width: 0; }
+.portfolio-return { display: inline-flex; align-items: center; min-height: 24px; color: var(--muted); font: 500 12px/1.4 'DM Sans',sans-serif; text-decoration: none; }
+.portfolio-return:hover { color: var(--coral-dark); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width:650px) { .portfolio-return { font-size: 11px; } }
