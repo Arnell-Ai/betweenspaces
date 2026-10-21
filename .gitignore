@@ -1,0 +1,10 @@
+# Only the standalone website and its assets belong in this repository.
+# Keep local review captures, source snapshots, and deployment notes off GitHub.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/styles.css
+!/section-layout.css
+!/script.js
+!/assets/
